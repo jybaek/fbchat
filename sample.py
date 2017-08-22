@@ -5,7 +5,7 @@ from fbchat.models import *
 
 client = Client('id', 'password') # XXX.
 
-"""
+""" self message
 client.sendMessage('hi me!', thread_id=client.uid)
 exit(255)
 """
