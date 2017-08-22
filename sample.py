@@ -10,6 +10,7 @@ client.sendMessage('hi me!', thread_id=client.uid)
 exit(255)
 """
 
+# find target
 friends = client.searchForUsers('friend_name')[0] # XXX.
 
 msg = 'jobs message' # XXX.
